@@ -28,7 +28,7 @@ document.getElementById('fetchButton').addEventListener('click', function(e) {
 	document.getElementById('lowerRate').innerText = data.rates.lowerRate;
         document.getElementById('higherRate').innerText = data.rates.higherRate;
 	document.getElementById('juniorRate').innerText = data.rates.lowerRate;
-        document.getElementById('higherRate').innerText = data.rates.higherRate;
+        document.getElementById('seniorRate').innerText = data.rates.higherRate;
 
         // Populate the skillsContainer
         var skillsContainer = document.getElementById('skillsContainer');
